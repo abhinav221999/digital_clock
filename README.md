@@ -8,6 +8,6 @@ I have designed a basic Digital clock using **iverilog** and used **gtkwave** fo
   * `iverilog -o display secondCounter.v minuteCounter.v hourCounter.v dispay.v testbench.v`
   * `vvp display`
 * A file named **dispaly.vcd** will be generated
-* Now enter the command: `gtkwave(display.vcd)`
+* Now enter the command: `gtkwave display.vcd`
 # Set and Reset Functionalities
 A set Functionality has also been provided in the clock which when activated makes the clock read **12:30** and also a reset functionality which makes the clock zero for as long as it is active.
