@@ -1,4 +1,4 @@
-# digital_clock
+# Digital_Clock
 # Description
 I have designed a basic Digital clock using **iverilog** and used **gtkwave** for simulation purposes. The clock is **negative-edge triggered** with an asynchronous active high set and reset buttons
 # How to Use
